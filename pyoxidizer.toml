@@ -1,0 +1,36 @@
+[application]
+name = "TabacariaCRM"
+version = "1.0.0"
+
+# Configuração do Python
+[python]
+version = "3.12"
+
+# Configurações de build
+[build]
+application_name = "TabacariaCRM"
+
+# Incluir pacotes necessários
+[[packages]]
+name = "PyQt5"
+version = "5.15.11"
+
+[[packages]]
+name = "matplotlib"
+version = "3.10.3"
+
+[[packages]]
+name = "numpy"
+version = "2.3.1"
+
+[[packages]]
+name = "plyer"
+version = "2.1.0"
+
+# Configurações específicas para Windows
+[target.windows-x86_64]
+# Configurações adicionais se necessário
+
+# Configurações específicas para Linux
+[target.linux-x86_64]
+# Configurações adicionais se necessário
